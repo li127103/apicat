@@ -1,5 +1,8 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+library seed;
+
+
+export 'models/models.dart';
+export 'consts.dart';
+
+
+export 'package:freezed_annotation/freezed_annotation.dart';
